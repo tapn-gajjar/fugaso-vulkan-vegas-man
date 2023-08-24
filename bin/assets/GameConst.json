@@ -1,0 +1,266 @@
+{
+  "pingInterval":30,
+  "jpPingInterval":57,
+  "countUserBetData":2,
+
+  "game_const":{
+    "min_cash_out":1.20,
+    "max_cash_out":10000,
+    "clouds_spine":[0.6, 1.2],
+    "cloud_time_speed":0.03,
+    "cloud_time_percent":0.5,
+    "cloud_limit":2.5,
+    "cloud_speed_coef":0.01,
+    "stars_spine":[1.5, 2.5],
+    "multi_speed_limit":3.0,
+    "x100_speed_limit":100.0,
+    "speed_conf":{
+      "min":1.0,
+      "max":5.0,
+      "total":50.0
+    },
+    "win_limit":{
+      "gui_win_big":10.0,
+      "gui_win_mega":25.0,
+      "gui_win_super":50.0
+    },
+    "-win_limit":{
+      "gui_win_big":2.0,
+      "gui_win_mega":3.0,
+      "gui_win_super":5.0
+    }
+  },
+
+  "gameName":"fugaso-vulkan-vegas-man",
+  "parentGameName":"fugaso-magnify-man",
+  "langID":"f_vulkan-vm",
+
+  "loc_graphic":{
+    "x":0, "y":0,
+    "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+    "type":"container", "name":"c_localisation", "debug":0,
+    "entities":[
+      {
+        "x":0, "y":0,
+        "width":100, "height":100,
+        "color":"0x000000", "alpha":1,
+        "type":"rect", "name":"r_bg", "debug":0
+      },
+      {
+        "x":0, "y":0, "scale":1.0, "v_scale":0.75,
+        "anchor":0.5,
+        "type":"sprite", "texture":"ui_logo_2", "name":"s_game_logo_small", "debug":0
+      }
+    ]
+  },
+
+  "defaultLanguage":"eng",
+  "languageIDs":[
+    "eng",
+    "fra",
+    "deu",
+    "ita",
+    "nor",
+    "prt",
+    "pt_br",
+    "rus",
+    "ukr",
+    "pol",
+    "ron",
+    "gre",
+    "esp",
+    "swe",
+    "tur",
+    "jpn",
+    "zh_cn",
+    "zh_tw",
+    "hin",
+    "kor",
+    "ind",
+    "tha",
+    "vie",
+    "gb",
+    "can"
+  ],
+  "languageMap":{
+    "gb":"eng",
+    "can":"eng"
+  },
+
+  "gameType":2,
+  "useTotalBetForLimit":true,
+  "coinSystem":false,
+  "checkBetOnPaytable":false,
+  "gameHaveJackpot":false,
+  "gameHaveIntro":false,
+  "gameHaveRespin":false,
+  "gameHaveFree":false,
+  "gameHaveGamble":false,
+  "gambleWinLimit":250,
+
+  "delayStartMain":0.5,
+  "delay_auto_start":0.3,
+
+  "minLineCount":40,
+  "localization":0,
+  "haveLocalisation":true,
+  "lineFixed":true,
+  "onlyBetOne":false,
+
+  "symbolWidth":154,
+  "symbolHeight":108,
+  "m_symbolWidth":154,
+  "m_symbolHeight":108,
+
+  "symbols":["E", "C", "R", "G", "O", "L", "P", "#", "S", "Y", "M", "J"],
+  "-debug_start_symbols":[
+    ["E", "C", "R", "G"],
+    ["O", "L", "P", "#"],
+    ["S", "Y", "M", "J"],
+    ["C", "C", "C", "C"],
+    ["C", "C", "C", "C"]
+  ],
+  "scatterSymbol":["#"],
+  "bonusSymbol":[],
+  "longReelSymbol":[""],
+  "change2LongSpeed":false,
+  "change2LongSpeedOnEnd":false,
+  "-longReelSymbolMap":{
+    "B":2
+  },
+  "timeForLongReel":3.3,
+  "wildSymbol":{
+    "J":["E", "C", "R", "G", "O", "L", "P", "S", "Y", "M"]
+  },
+
+  "checkScatterByLine":[],
+
+  "countUp":1,
+  "countDown":1,
+  "countSlot":4,
+  "countReel":5,
+  "defaultCat":0,
+
+  "startBackInTime":0.07,
+  "startBackInSpeed":-15,
+  "timeDownStartSpeed":0.4,
+
+  "endBackInTime":0.15,
+  "endBackInTime2":0.25,
+  "endBackCoef":0.15,
+
+  "stoppingMoveSpeed":50,
+  "longSpinSpeed":50,
+  "longSpinEndSpeed":10,
+  "longSpinEndTime":0.15,
+  "startReelSpeed":50,
+  "maxSpeed":50,
+  "minSpeed":50,
+  "minSkipSpeed":80,
+  "defaultDesiredTime":250,
+  "deVDesiredTime":3500,
+  "turboModeTimeCoef":0.15,
+
+  "delayDelayBetweenReelsTime":0.25,
+  "delayDelayBetweenReelsTimeCoef":0.3,
+  "delayStartSpinTime":0.0,
+  "delaySpinReel":0.05,
+  "-delaySpinMap":{
+    "delayVector":[2, 1, 3, 0, 4],
+    "delayTime":[0.05, 0, 0.05, 0, 0]
+  },
+
+  "innerStart":false,
+  "innerFinish":true,
+  "blurInReelAnimation":true,
+  "-blurIgnoreList":["A"],
+  "useConfigBlur":false,
+  "blurYScale":1.1,
+  "blurScaleTimeOn":0.9,
+  "blurScaleTimeOff":0.2,
+  "startBlurTime":0.05,
+  "delaySkipSpin":0.5,
+  "delaySkipWin":0.1,
+  "oneStopOnSkip":false,
+  "hardSkip":true,
+  "hardSkipCoef":0.35,
+  "hardSkipBackCoef":0.5,
+
+  "blurImg":false,
+  "blurImgAlpha":0.8,
+  "blurImgTimeOn":1.0,
+  "blurImgTimeOff":0.6,
+
+  "lowVolumeOnWin":false,
+  "winValueOnCurrency":true,
+  "haveAutoCollect":false,
+  "timeAutoCollect":0,
+  "showWinAfterCollect":true,
+  "showWinOnGamble":false,
+  "haveLoopAnimation":true,
+  "startLoopAfterLines":false,
+  "oneLineWin":false,
+  "clearReelsOnWin":true,
+  "clearLinesOnWin":false,
+  "clearLinesOnWinLoop":true,
+  "incWinByLine":false,
+  "clearWinEffOnEnd":false,
+  "showLoopNoWinSymbols":true,
+  "showOnWinNoWinSymbols":false,
+  "timeShowWinLine":2.0,
+  "timeShowSkipLine":0.5,
+  "timeShowLoopLine":3.0,
+  "timeShowBonus":1.0,
+  "timeShowScatters":1.0,
+  "timeStartFreeBonus":2.0,
+  "timeMessageOnScreen":0.8,
+
+  "gameHaveBigMess":false,
+  "win_message_sec":2.6,
+  "before_lines_sec":1.4,
+  "big_win_rate":5,
+  "epic_win_rate":70,
+  "mega_win_rate":10000000000,
+
+  "gui_inc_conf":{
+    "min":2.0,
+    "max":10.0,
+    "total":62.5
+  },
+
+  "language":{
+    "eng":"ENGLISH",
+    "fra":"FRANÇAIS",
+    "deu":"DEUTSCH",
+    "ita":"ITALIANO",
+    "nor":"NORSK",
+    "prt":"PORTUGUÊS",
+    "rus":"РУССКИЙ",
+    "esp":"ESPAÑOL",
+    "swe":"SVENSKA",
+    "tur":"TÜRKÇE",
+    "gb":"ENGLISH",
+    "can":"ENGLISH",
+    "au":"ENGLISH",
+    "jpn":"日本語",
+    "ukr":"УКРАЇНСЬКА",
+    "pol":"POLSKI",
+    "ron":"ROMÂNĂ",
+    "gre":"ΕΛΛΗΝΙΚΑ",
+    "zh_cn":"中文",
+    "zh_tw":"中文",
+    "hin":"हिन्दी",
+    "kor":"한국어",
+    "ind":"BAHASA INDONESIA",
+    "tha":"ภาษาไทย",
+    "vie":"TIẾNG VIỆT",
+    "pt_br":"PORTUGUÊS",
+    "fin":"SUOMI",
+    "dut":"NEDERLANDS",
+    "dan":"DANSK",
+    "bul":"БЪЛГАРСКИ",
+    "geo":"ᲥᲐᲠᲗᲣᲚᲘ",
+    "bel":"БЕЛАРУСКІ",
+    "es_mx":"ESPAÑOL"
+  }
+}

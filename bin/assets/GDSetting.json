@@ -1,0 +1,144 @@
+{
+  "debug":0, "visible":0,
+
+  "x":980, "y":55, "sdx":0.5, "sdy":0.5,
+
+  "m_x":757, "m_y":178, "m_sdx":0.55, "m_sdy":0.5,
+  "v_x":116, "v_y":110, "v_scale":0.71, "v_sdx":0.5,
+
+  "entities":[
+    {
+      "x":0, "y":0,
+      "width":1280, "height":720,
+      "color":"0x000000", "alpha":0.01,
+      "type":"rect", "name":"s_tint", "debug":0, "active":10
+    },
+    {
+      "x":0, "y":0,
+      "type":"sprite", "texture":"setting_back", "name":"s_bg", "debug":0
+    },
+    {
+      "x":13, "y":63,
+      "width":87, "height":50, "align":"left", "alignV":"middle",
+      "fontSize":"16px", "fontName":"Helvetica", "padding":0, "fill":"0xffffff", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+      "locConst":"mobile_menu_8", "type":"textFont", "name":"t_language_label", "debug":0,
+
+      "m_x":27, "m_y":61, "m_width":449, "m_height":53, "m_fontSize":"30px"
+    },
+    {
+      "x":200, "y":63,
+      "width":77, "height":33, "align":"center", "alignV":"middle", "fontWeight":"bolder",
+      "fontSize":"15px", "fontName":"Arial", "padding":5, "fill":"0xffffff", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+      "text":"ENGLISH", "type":"textFont", "name":"t_language", "debug":0,
+
+      "m_x":308, "m_y":126, "m_width":219, "m_height":50, "m_fontSize":"36px"
+    },
+
+    {
+      "x":130, "y":54,
+      "m_x":107, "m_y":101,
+      "language":{
+        "eng":"flag_en",
+        "fra":"flag_fr",
+        "deu":"flag_de",
+        "ita":"flag_it",
+        "nor":"flag_nsk",
+        "prt":"flag_prt",
+        "rus":"flag_ru",
+        "esp":"flag_es",
+        "swe":"flag_sv",
+        "tur":"flag_tr",
+        "gb":"flag_gb",
+        "can":"flag_ca",
+        "jpn":"flag_jpn",
+        "ukr":"flag_ukr",
+        "pol":"flag_pl",
+        "ron":"flag_ro",
+        "gre":"flag_gre",
+        "zh_cn":"flag_cn",
+        "zh_tw":"flag_tw",
+        "hin":"flag_hin",
+        "kor":"flag_ko",
+        "ind":"flag_ind",
+        "tha":"flag_tha",
+        "vie":"flag_vie",
+        "bel":"flag_bel",
+        "bul":"flag_bul",
+        "dan":"flag_dan",
+        "dut":"flag_dut",
+        "es_mx":"flag_es_mx",
+        "fin":"flag_fin",
+        "geo":"flag_geo",
+        "pt_br":"flag_pt_br"
+      },
+      "type":"sprite", "texture":"flag_en", "name":"s_flag", "debug":0
+    },
+
+    {
+      "x":111, "y":64, "anchor":0.5, "rotate":180,
+      "m_x":52, "m_y":128, "m_rotate":0,
+      "out":"b_arrow_0", "soundOver":"pointing_button",
+      "type":"buttonMobile", "name":"b_left", "debug":0,
+      "overScale":1.05, "downScale":0.9,
+      "activeStateList":[], "noActiveStateList":[], "alwaysAvailable":true
+    },
+    {
+      "x":248, "y":64, "anchor":0.5, "rotate":0,
+      "m_x":454, "m_y":128, "m_rotate":180,
+      "out":"b_arrow_0", "soundOver":"pointing_button",
+      "type":"buttonMobile", "name":"b_right", "debug":0,
+      "overScale":1.05, "downScale":0.9,
+      "activeStateList":[], "noActiveStateList":[], "alwaysAvailable":true
+    },
+    {
+      "x":273, "y":64, "anchor":0.5, "isMobile": false,
+      "out":"b_check_0", "soundOver":"pointing_button",
+      "type":"buttonMobile", "name":"b_yes", "debug":0,
+      "overScale":1.05, "downScale":0.9,
+      "activeStateList":[], "noActiveStateList":[], "alwaysAvailable":true
+    },
+    {
+      "x":254, "y":230, "anchor":0.5, "isMobile": true,
+      "out":"b_check_0", "block":"b_check_3", "soundOver":"pointing_button",
+      "type":"buttonMobile", "name":"b_yes", "debug":0,
+      "overScale":1.05, "downScale":0.9,
+      "activeStateList":[], "noActiveStateList":[], "alwaysAvailable":true
+    },
+
+    {
+      "x":13, "y":122,
+      "width":158, "height":50, "align":"left", "alignV":"middle",
+      "fontSize":"16px", "fontName":"Helvetica", "padding":0, "fill":"0xffffff", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+      "locConst":"mobile_menu_7", "type":"textFont", "name":"t_sound_label", "debug":0,
+
+      "m_x":27, "m_y":320, "m_width":314, "m_height":50, "m_fontSize":"30px"
+    },
+    {
+      "x":199, "y":126, "anchor":0.5, "scale":0.89,
+      "type":"buttonMobile", "name":"b_toggle_sound", "debug":0,
+      "out":"toggl_1", "soundOver":"pointing_button",
+      "overScale":1.05, "downScale":0.9,
+      "states":{
+        "on":{
+          "out":"toggl_1"
+        },
+        "off":{
+          "out":"toggl_3"
+        }
+      },
+
+      "m_x":419, "m_y":322, "m_scale":1.00, "m_out":"toogle_setting_1",
+      "m_states":{
+        "on":{
+          "out":"toogle_setting_1"
+        },
+        "off":{
+          "out":"toogle_setting_3"
+        }
+      }
+    }
+  ]
+}

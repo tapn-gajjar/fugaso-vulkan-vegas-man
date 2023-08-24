@@ -1,0 +1,204 @@
+{
+  "render":{
+    "ui_cashout_1":{
+      "x":0, "y":0,
+      "width":190, "height":32, "radius":20,
+      "color":"0x171819", "alpha":1, "typeDraw":4,
+      "type":"graphic", "debug":0
+    },
+    "ui_cashout_2":{
+      "x":0, "y":0,
+      "width":60, "height":28, "radius":20,
+      "color":"0x171819", "alpha":1, "typeDraw":4,
+      "lineStyle":{"width":1, "color":"0x141515", "alpha":1},
+      "type":"graphic", "debug":0
+    },
+    "ui_main_bat_screenX1":{
+      "x":0, "y":0,
+      "width":630, "height":201, "radius":30,
+      "color":"0x1F2021", "alpha":1, "typeDraw":4,
+      "option":{"resolution":2},
+      "lineStyle":{"width":1.5, "color":"0x555658", "alpha":0.7},
+      "type":"graphic", "debug":0
+    },
+    "ui_main_bat_screenX2":{
+      "x":0, "y":0,
+      "width":310, "height":201, "radius":30,
+      "color":"0x1F2021", "alpha":1, "typeDraw":4,
+      "option":{"resolution":2},
+      "lineStyle":{"width":1.5, "color":"0x555658", "alpha":0.7},
+      "type":"graphic", "debug":0
+    },
+    "info_back":{
+      "width":941, "height":607, "radius":30,
+      "color":"0x1F2021", "alpha":1, "typeDraw":4,
+      "option":{"resolution":2},
+      "lineStyle":{"width":1.5, "color":"0x555658", "alpha":0.7},
+      "type":"graphic", "debug":0
+    },
+    "ui_main_back_1":{
+      "width":291, "height":627, "radius":30,
+      "color":"0x1F2021", "alpha":1, "typeDraw":4,
+      "option":{"resolution":2},
+      "lineStyle":{"width":1.5, "color":"0x555658", "alpha":0.7},
+      "type":"graphic", "debug":0
+    },
+    "keyboard_line":{
+      "alpha":1, "typeDraw":5,
+      "linePath":[{"x":402, "y":0}],
+      "lineStyle":{"width":2, "color":"0xFFFFFF", "alpha":0.3},
+      "type":"graphic", "debug":0
+    },
+    "b_url_check":{
+      "width":489, "height":31,
+      "color":"0x000000", "alpha":0.01, "typeDraw":0,
+      "type":"graphic", "debug":0
+    }
+  },
+  "m_render":{
+    "ui_main_bet_line1":{
+      "alpha":1, "typeDraw":5,
+      "linePath":[{"x":0, "y":329}],
+      "lineStyle":{"width":2, "color":"0xFFFFFF", "alpha":0.3},
+      "type":"graphic", "debug":0
+    },
+    "ui_main_bet_line1_v":{
+      "alpha":1, "typeDraw":5,
+      "linePath":[{"x":479, "y":0}],
+      "lineStyle":{"width":2, "color":"0xFFFFFF", "alpha":0.3},
+      "type":"graphic", "debug":0
+    },
+    "ui_main_bat_screenX1":{
+      "x":0, "y":0,
+      "width":492, "height":358, "radius":30,
+      "color":"0x1F2021", "alpha":1, "typeDraw":4,
+      "option":{"resolution":2},
+      "lineStyle":{"width":1.5, "color":"0x555658", "alpha":0.7},
+      "type":"graphic", "debug":0
+    },
+    "ui_main_bat_screenX1_v":{
+      "x":0, "y":0,
+      "width":510, "height":257, "radius":25,
+      "color":"0x1F2021", "alpha":1, "typeDraw":4,
+      "option":{"resolution":2},
+      "lineStyle":{"width":1.5, "color":"0x555658", "alpha":0.7},
+      "type":"graphic", "debug":0
+    },
+    "ui_main_bat_screenX2":{
+      "x":0, "y":0,
+      "width":492, "height":171, "radius":30,
+      "color":"0x1F2021", "alpha":1, "typeDraw":4,
+      "option":{"resolution":2},
+      "lineStyle":{"width":1.5, "color":"0x555658", "alpha":0.7},
+      "type":"graphic", "debug":0
+    },
+    "ui_main_bat_screenX2_v":{
+      "x":0, "y":0,
+      "width":245, "height":257, "radius":25,
+      "color":"0x1F2021", "alpha":1, "typeDraw":4,
+      "option":{"resolution":2},
+      "lineStyle":{"width":1.5, "color":"0x555658", "alpha":0.7},
+      "type":"graphic", "debug":0
+    },
+    "ui_main_bet_line2":{
+      "alpha":1, "typeDraw":5,
+      "linePath":[{"x":0, "y":137}],
+      "lineStyle":{"width":2, "color":"0xFFFFFF", "alpha":0.3},
+      "type":"graphic", "debug":0
+    },
+    "ui_main_bet_line2_v":{
+      "alpha":1, "typeDraw":5,
+      "linePath":[{"x":219, "y":0}],
+      "lineStyle":{"width":2, "color":"0xFFFFFF", "alpha":0.3},
+      "type":"graphic", "debug":0
+    },
+    "all_bets_plashka":{
+      "width":570, "height":71, "radius":90,
+      "color":"0x161819", "alpha":1, "typeDraw":4,
+      "option":{"resolution":2},
+      "lineStyle":{"width":2, "color":"0x2F3132", "alpha":0.5},
+      "type":"graphic", "debug":0
+    },
+    "autobet_plashka":{
+      "width":116, "height":67, "radius":25,
+      "color":"0x161819", "alpha":1, "typeDraw":4,
+      "option":{"resolution":2},
+      "lineStyle":{"width":1, "color":"0x141414", "alpha":0.5},
+      "type":"graphic", "debug":0
+    },
+    "autobet_plashka_2":{
+      "width":146, "height":59, "radius":19,
+      "color":"0x161819", "alpha":1, "typeDraw":4,
+      "option":{"resolution":2},
+      "lineStyle":{"width":1, "color":"0x141414", "alpha":0.5},
+      "type":"graphic", "debug":0
+    },
+    "ui_bet_back_1":{
+      "width":406, "height":98, "radius":20,
+      "color":"0x171819", "alpha":1, "typeDraw":4,
+      "-option":{"resolution":2},
+      "lineStyle":{"width":1, "color":"0x121312", "alpha":0.5},
+      "type":"graphic", "debug":0
+    },
+    "ui_bet_back_2_v":{
+      "width":448, "height":80, "radius":15,
+      "color":"0x171819", "alpha":1, "typeDraw":4,
+      "-option":{"resolution":2},
+      "lineStyle":{"width":1, "color":"0x121312", "alpha":0.5},
+      "type":"graphic", "debug":0
+    },
+    "ui_bet_back_2":{
+      "width":399, "height":61, "radius":20,
+      "color":"0x171819", "alpha":1, "typeDraw":4,
+      "-option":{"resolution":2},
+      "lineStyle":{"width":1, "color":"0x121312", "alpha":0.5},
+      "type":"graphic", "debug":0
+    },
+    "ui_bet_back_1_v":{
+      "width":234, "height":80, "radius":15,
+      "color":"0x171819", "alpha":1, "typeDraw":4,
+      "-option":{"resolution":2},
+      "lineStyle":{"width":1, "color":"0x121312", "alpha":0.5},
+      "type":"graphic", "debug":0
+    },
+    "ui_bet_frame_1":{
+      "width":491, "height":67, "radius":30,
+      "color":"0x1F2021", "alpha":1, "typeDraw":4,
+      "option":{"resolution":2},
+      "lineStyle":{"width":1, "color":"0x545455", "alpha":0.5},
+      "type":"graphic", "debug":0
+    },
+    "info_back":{
+      "width":727, "height":556, "radius":30,
+      "color":"0x1F2021", "alpha":1, "typeDraw":4,
+      "option":{"resolution":2},
+      "lineStyle":{"width":1.5, "color":"0x555658", "alpha":0.7},
+      "type":"graphic", "debug":0
+    },
+    "keyboard_button_back":{
+      "width":485, "height":466, "radius":30,
+      "color":"0x1F2021", "alpha":1, "typeDraw":4,
+      "option":{"resolution":2},
+      "lineStyle":{"width":1.5, "color":"0x555658", "alpha":0.7},
+      "type":"graphic", "debug":0
+    },
+    "keyboard_button_2":{
+      "width":82, "height":82, "radius":10,
+      "color":"0x161819", "alpha":1, "typeDraw":4,
+      "-option":{"resolution":2},
+      "lineStyle":{"width":1, "color":"0x121312", "alpha":0.5},
+      "type":"graphic", "debug":0
+    },
+    "keyboard_line":{
+      "alpha":1, "typeDraw":5,
+      "linePath":[{"x":402, "y":0}],
+      "lineStyle":{"width":2, "color":"0xFFFFFF", "alpha":0.3},
+      "type":"graphic", "debug":0
+    },
+    "b_url_check":{
+      "width":447, "height":39,
+      "color":"0x000000", "alpha":0.01, "typeDraw":0,
+      "type":"graphic", "debug":0
+    }
+  }
+}

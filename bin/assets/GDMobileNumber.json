@@ -1,0 +1,243 @@
+{
+  "debug":0, "visible":0,
+
+  "x":396, "y":125, "sdx":0.45, "sdy":0.5,
+  "v_x":64, "v_y":282, "v_scale":0.85, "v_sdx":0.5, "v_sdy":0.5,
+
+  "deepPosition":false,
+  "debugHitArea":false,
+
+  "entities":[
+    {
+      "x":0, "y":0,
+      "width":1280, "height":720,
+      "color":"0x000000", "alpha":0.6,
+      "type":"rect", "name":"s_tint", "debug":0, "active":1
+    },
+    {
+      "x":0, "y":0,
+      "type":"sprite", "texture":"keyboard_button_back", "name":"s_bg",
+      "debug":0
+    },
+    {
+      "x":41, "y":89, "type":"sprite", "texture":"keyboard_line",
+      "name":"s_keyboard_line", "debug":0
+    },
+    {
+      "x":15, "y":99, "type":"sprite", "texture":"keyboard_button_4",
+      "name":"s_textBg", "debug":0
+    },
+
+    {
+      "x":40, "y":46,
+      "width":359, "height":40, "align":"left", "alignV":"middle",
+      "fontSize":"36px", "fontName":"Helvetica", "padding":0, "fill":"0xFDFDFD", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+      "text":"Bet", "type":"textFont", "name":"t_label", "debug":0
+    },
+    {
+      "x":43, "y":73,
+      "width":390, "height":35, "align":"left", "alignV":"middle",
+      "fontSize":"14px", "fontName":"Helvetica", "padding":2, "fill":"0xC5C5C6", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+      "text":"10000,00", "type":"textFont", "name":"t_limit", "debug":0
+    },
+    {
+      "x":240, "y":133,
+      "width":405, "height":55, "align":"center", "alignV":"middle", "block":"0x737375",
+      "fontSize":"36px", "fontName":"Helvetica", "padding":0, "fill":"0xFDFDFD", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+      "text":"99", "type":"textFont", "name":"t_value", "debug":0
+    },
+
+    {
+      "x":334, "y":216, "anchor":0.5,
+      "type":"buttonMobile", "debug":0, "name":"b_0",
+      "out":"keyboard_button_2", "userData":"0",
+      "overScale":1.05, "downScale":0.90,
+      "soundUp":"btn_any",
+      "label":{
+        "x":0, "y":0,
+        "width":78, "height":70, "align":"center", "alignV":"middle",
+        "fontSize":"40px", "fontName":"Arial", "padding":0, "fill":"0xFDFDFD", "letterSpacing":0,
+        "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":false,
+        "text":"0", "type":"textFont", "name":"t_label", "debug":0
+      },
+      "-hintAreaRect":{"x":0, "y":0, "width":45, "height":45, "type":0, "debug":0}
+    },
+    {
+      "x":67, "y":216, "anchor":0.5,
+      "type":"buttonMobile", "debug":0, "name":"b_1",
+      "out":"keyboard_button_2", "userData":"1",
+      "overScale":1.05, "downScale":0.90,
+      "soundUp":"btn_any",
+      "label":{
+        "x":0, "y":0,
+        "width":78, "height":70, "align":"center", "alignV":"middle",
+        "fontSize":"40px", "fontName":"Arial", "padding":0, "fill":"0xFDFDFD", "letterSpacing":0,
+        "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":false,
+        "text":"1", "type":"textFont", "name":"t_label", "debug":0
+      },
+      "-hintAreaRect":{"x":0, "y":0, "width":45, "height":45, "type":0, "debug":0}
+    },
+    {
+      "x":156, "y":216, "anchor":0.5,
+      "type":"buttonMobile", "debug":0, "name":"b_2",
+      "out":"keyboard_button_2", "userData":"2",
+      "overScale":1.05, "downScale":0.90,
+      "soundUp":"btn_any",
+      "label":{
+        "x":0, "y":0,
+        "width":78, "height":70, "align":"center", "alignV":"middle",
+        "fontSize":"40px", "fontName":"Arial", "padding":0, "fill":"0xFDFDFD", "letterSpacing":0,
+        "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":false,
+        "text":"2", "type":"textFont", "name":"t_label", "debug":0
+      },
+      "-hintAreaRect":{"x":0, "y":0, "width":45, "height":45, "type":0, "debug":0}
+    },
+    {
+      "x":245, "y":217, "anchor":0.5,
+      "type":"buttonMobile", "debug":0, "name":"b_3",
+      "out":"keyboard_button_2", "userData":"3",
+      "overScale":1.05, "downScale":0.90,
+      "soundUp":"btn_any",
+      "label":{
+        "x":0, "y":0,
+        "width":78, "height":70, "align":"center", "alignV":"middle",
+        "fontSize":"40px", "fontName":"Arial", "padding":0, "fill":"0xFDFDFD", "letterSpacing":0,
+        "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":false,
+        "text":"3", "type":"textFont", "name":"t_label", "debug":0
+      },
+      "-hintAreaRect":{"x":0, "y":0, "width":45, "height":45, "type":0, "debug":0}
+    },
+    {
+      "x":67, "y":308, "anchor":0.5,
+      "type":"buttonMobile", "debug":0, "name":"b_4",
+      "out":"keyboard_button_2", "userData":"4",
+      "overScale":1.05, "downScale":0.90,
+      "soundUp":"btn_any",
+      "label":{
+        "x":0, "y":0,
+        "width":78, "height":70, "align":"center", "alignV":"middle",
+        "fontSize":"40px", "fontName":"Arial", "padding":0, "fill":"0xFDFDFD", "letterSpacing":0,
+        "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":false,
+        "text":"4", "type":"textFont", "name":"t_label", "debug":0
+      },
+      "-hintAreaRect":{"x":0, "y":0, "width":45, "height":45, "type":0, "debug":0}
+    },
+    {
+      "x":156, "y":308, "anchor":0.5,
+      "type":"buttonMobile", "debug":0, "name":"b_5",
+      "out":"keyboard_button_2", "userData":"5",
+      "overScale":1.05, "downScale":0.90,
+      "soundUp":"btn_any",
+      "label":{
+        "x":0, "y":0,
+        "width":78, "height":70, "align":"center", "alignV":"middle",
+        "fontSize":"40px", "fontName":"Arial", "padding":0, "fill":"0xFDFDFD", "letterSpacing":0,
+        "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":false,
+        "text":"5", "type":"textFont", "name":"t_label", "debug":0
+      },
+      "-hintAreaRect":{"x":0, "y":0, "width":45, "height":45, "type":0, "debug":0}
+    },
+    {
+      "x":245, "y":308, "anchor":0.5,
+      "type":"buttonMobile", "debug":0, "name":"b_6",
+      "out":"keyboard_button_2", "userData":"6",
+      "overScale":1.05, "downScale":0.90,
+      "soundUp":"btn_any",
+      "label":{
+        "x":0, "y":0,
+        "width":78, "height":70, "align":"center", "alignV":"middle",
+        "fontSize":"40px", "fontName":"Arial", "padding":0, "fill":"0xFDFDFD", "letterSpacing":0,
+        "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":false,
+        "text":"6", "type":"textFont", "name":"t_label", "debug":0
+      },
+      "-hintAreaRect":{"x":0, "y":0, "width":45, "height":45, "type":0, "debug":0}
+    },
+    {
+      "x":67, "y":399, "anchor":0.5,
+      "type":"buttonMobile", "debug":0, "name":"b_7",
+      "out":"keyboard_button_2", "userData":"7",
+      "overScale":1.05, "downScale":0.90,
+      "soundUp":"btn_any",
+      "label":{
+        "x":0, "y":0,
+        "width":78, "height":70, "align":"center", "alignV":"middle",
+        "fontSize":"40px", "fontName":"Arial", "padding":0, "fill":"0xFDFDFD", "letterSpacing":0,
+        "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":false,
+        "text":"7", "type":"textFont", "name":"t_label", "debug":0
+      },
+      "-hintAreaRect":{"x":0, "y":0, "width":45, "height":45, "type":0, "debug":0}
+    },
+    {
+      "x":156, "y":399, "anchor":0.5,
+      "type":"buttonMobile", "debug":0, "name":"b_8",
+      "out":"keyboard_button_2", "userData":"8",
+      "overScale":1.05, "downScale":0.90,
+      "soundUp":"btn_any",
+      "label":{
+        "x":0, "y":0,
+        "width":78, "height":70, "align":"center", "alignV":"middle",
+        "fontSize":"40px", "fontName":"Arial", "padding":0, "fill":"0xFDFDFD", "letterSpacing":0,
+        "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":false,
+        "text":"8", "type":"textFont", "name":"t_label", "debug":0
+      },
+      "-hintAreaRect":{"x":0, "y":0, "width":45, "height":45, "type":0, "debug":0}
+    },
+    {
+      "x":245, "y":399, "anchor":0.5,
+      "type":"buttonMobile", "debug":0, "name":"b_9",
+      "out":"keyboard_button_2", "userData":"9",
+      "overScale":1.05, "downScale":0.90,
+      "soundUp":"btn_any",
+      "label":{
+        "x":0, "y":0,
+        "width":78, "height":70, "align":"center", "alignV":"middle",
+        "fontSize":"40px", "fontName":"Arial", "padding":0, "fill":"0xFDFDFD", "letterSpacing":0,
+        "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":false,
+        "text":"9", "type":"textFont", "name":"t_label", "debug":0
+      },
+      "-hintAreaRect":{"x":0, "y":0, "width":45, "height":45, "type":0, "debug":0}
+    },
+    {
+      "x":423, "y":216, "anchor":0.5,
+      "type":"buttonMobile", "debug":0, "name":"b_10",
+      "out":"keyboard_button_2", "userData":".",
+      "overScale":1.05, "downScale":0.90,
+      "soundUp":"btn_any",
+      "label":{
+        "x":0, "y":0,
+        "width":78, "height":70, "align":"center", "alignV":"middle",
+        "fontSize":"40px", "fontName":"Arial", "padding":0, "fill":"0xFDFDFD", "letterSpacing":0,
+        "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":false,
+        "text":"‧", "type":"textFont", "name":"t_label", "debug":0
+      },
+      "-hintAreaRect":{"x":0, "y":0, "width":45, "height":45, "type":0, "debug":0}
+    },
+
+    {
+      "x":379, "y":307, "anchor":0.5,
+      "type":"buttonMobile", "debug":0, "name":"b_remove",
+      "out":"keyboard_button_3",
+      "overScale":1.05, "downScale":0.90,
+      "-hintAreaRect":{"x":0, "y":0, "width":45, "height":45, "type":0, "debug":0}
+    },
+    {
+      "x":379, "y":400, "anchor":0.5,
+      "oneClick":true,
+      "type":"buttonMobile", "debug":0, "name":"b_apply",
+      "out":"keyboard_button_1", "block":"keyboard_button_1_cencel",
+      "overScale":1.05, "downScale":0.90,
+      "-hintAreaRect":{"x":0, "y":0, "width":45, "height":45, "type":0, "debug":0}
+    },
+    {
+      "x":449, "y":33, "anchor":0.5,
+      "oneClick":true,
+      "type":"buttonMobile", "debug":0, "name":"b_close",
+      "out":"b_close_0",
+      "overScale":1.05, "downScale":0.90,
+      "-hintAreaRect":{"x":0, "y":0, "width":45, "height":45, "type":0, "debug":0}
+    }
+  ]
+}
